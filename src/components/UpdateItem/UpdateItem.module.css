@@ -1,0 +1,44 @@
+.update-item {
+    border-bottom: 1px solid #D5D5D5;
+    padding-bottom: 16px;
+    display: flex;
+    gap: 10px;
+}
+
+.update-item:not(:first-of-type) {
+    padding-top: 16px;
+}
+
+.update-title,
+.update-content {
+    font-size: 14px;
+}
+
+.update-title {
+    margin-bottom: 8px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.update-title:last-of-type {
+    font-weight: 400;
+}
+
+.update-content {
+    margin-bottom: 4px;
+}
+
+.update-time {
+    font-size: 13px;
+    color: #999;
+}
+
+.updates-square {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    background-color: #218BCB;
+    border-radius: 100%;
+    margin-left: 4px;
+}

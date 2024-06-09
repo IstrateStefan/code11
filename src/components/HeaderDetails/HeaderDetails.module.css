@@ -1,0 +1,33 @@
+.details {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 48px 32px;
+    margin-bottom: 48px;
+}
+
+.details-container {
+    border: 1px solid #E1E1E1;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+}
+
+.companies-icon {
+    margin-left: 8px;
+}
+
+.screening-square {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    background-color: #B62537;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.settings {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}

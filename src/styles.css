@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: #F4F4F4;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-scroll {
+    overflow: hidden;
+}

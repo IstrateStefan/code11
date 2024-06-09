@@ -1,0 +1,22 @@
+.updates-section {
+    position: relative;
+    flex: 1;
+    margin-right: 48px;
+    margin-left: 64px;
+}
+
+.updates-section:before {
+    content: "";
+    position: absolute;
+    top: 340px;
+    left: -32px;
+    right: 0; 
+    transform: translateY(-50%);
+    width: 1px; 
+    height: 680px; 
+    background-color: #D5D5D5;
+}
+
+.million-grey {
+    color: #999;
+}

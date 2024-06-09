@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 48px 48px;
+    background-color: #FFF;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    position: relative;
+    padding-right: 16px;
+    cursor: pointer;
+}
+  
+.arrow::after {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%);
+    width: 1px; 
+    height: 42px; 
+    background-color: #D5D5D5;
+}
+
+.profile-icon {
+    margin-left: 16px;
+    margin-right: 6px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.square {
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    background-color: #218BCB;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+  
+.updates {
+    margin-left: 16px;
+    background: #E6F5FF;
+    padding: 8px 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    color: #495057;
+}
+  
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #218BCB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.generate-report {
+    background-color: #fff;
+    color: #218BCB;
+    padding: 12px 24px;
+    border: 1px solid #218BCB;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.generate-report-container {
+    position: relative;
+    padding-right: 24px;
+}
+
+.generate-report::after {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%);
+    width: 1px; 
+    height: 42px; 
+    background-color: #D5D5D5;
+}
+
+.generate-report img {
+    color: #FFF;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.menu-button-container {
+    padding-left: 24px;
+}
+  
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

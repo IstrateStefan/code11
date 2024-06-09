@@ -1,0 +1,41 @@
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.detail-item:not(:last-of-type) {
+    padding-right: 20px;
+}
+
+.detail-item:not(:first-of-type) {
+    padding-left: 20px;
+}
+
+.detail-item:not(.last-detail-item):after {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%);
+    width: 1px; 
+    height: 49px; 
+    background-color: #D5D5D5;
+}
+  
+.detail-title {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.detail-value {
+    font-size: 16px;
+    color: #444;
+}
+
+.additional-flex-class {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
