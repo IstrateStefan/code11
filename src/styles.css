@@ -4,6 +4,7 @@ html, body {
     background: #F4F4F4;
     font-family: 'Roboto', sans-serif;
     color: #444;
+    max-width: 1600px;
 }
 
 .main-content {
