@@ -5,6 +5,10 @@
     gap: 10px;
 }
 
+.update-item:last-of-type {
+    border-bottom: none;
+}
+
 .update-item:not(:first-of-type) {
     padding-top: 16px;
 }
