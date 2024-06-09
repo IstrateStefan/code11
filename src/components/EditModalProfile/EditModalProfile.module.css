@@ -35,27 +35,33 @@
 }
   
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
   
 .form-group label {
     display: block;
     margin-bottom: 5px;
+    color: #696969;
+    font-size: 14px;
 }
   
 .form-group input {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
+    border-radius: 8px;
+    border-color: #E1E1E1;
+    border-style: solid;
 }
   
 .save-button {
-    background-color: #007bff;
+    background-color: #218BCB;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 30px;
+    width: 100%;
 }
 
 .modal::-webkit-scrollbar {
